@@ -10,6 +10,16 @@
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    CGRect frame = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:frame];
+    self.window.backgroundColor = [UIColor redColor];
+    game_view = [[GameView alloc] initWithFrame:frame];
+    game_view_controller = [[GameViewController alloc] init];
+    game_view_controller.view = game_view;
+    self.window.rootViewController = game_view_controller;
+    [self.window makeKeyWindow];
+    [game_view_controller viewDidLoad];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -17,16 +27,6 @@
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-}
-
-- (void)applicationDidFinishLaunching:(UIApplication *)application {
-    game_view = [[GameView alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    game_view_controller = [[GameViewController alloc] init];
-    game_view_controller.view = game_view;
-    game_view.rootViewController = game_view_controller;
-    [game_view makeKeyWindow];
-    [game_view_controller viewDidLoad];
-    [game_view makeKeyAndVisible];
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {

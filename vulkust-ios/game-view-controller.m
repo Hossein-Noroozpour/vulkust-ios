@@ -1,14 +1,17 @@
 #import "game-view-controller.h"
+#import "vulkust.h"
 
 @implementation GameViewController {
     CADisplayLink* display_link;
     BOOL view_has_appeared;
+    void * vulkust_data;
 }
 
 -(void) viewDidLoad {
     [super viewDidLoad];
     self.view.contentScaleFactor = UIScreen.mainScreen.nativeScale;
-    // initialize os app in here
+    vulkust_data = vulkust_allocate();
+    vulkust_set_view(vulkust_data, (__bridge void *)(self.view));
     display_link = [CADisplayLink displayLinkWithTarget:self selector: @selector(renderFrame:)];
     [display_link setPreferredFramesPerSecond:30];
     [display_link addToRunLoop:NSRunLoop.currentRunLoop forMode: NSDefaultRunLoopMode];
@@ -29,11 +32,11 @@
 }
 
 -(void) renderFrame: (CADisplayLink*) link_display {
-    // render a frame in here
+    vulkust_render(vulkust_data);
 }
 
 -(void) dealloc {
-    // deallocate os app
+    vulkust_deallocate(vulkust_data);
 }
 
 -(void) toggleKeyboard {

@@ -1,4 +1,4 @@
 #import <UIKit/UIKit.h>
 
-@interface GameView : UIWindow
+@interface GameView : UIView
 @end
