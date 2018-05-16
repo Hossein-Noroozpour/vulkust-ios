@@ -10,15 +10,16 @@
 		941D851120A95B1E0049ED13 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941D851020A95B1E0049ED13 /* UIKit.framework */; };
 		941D851320A9A5F80049ED13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941D851220A9A5F80049ED13 /* QuartzCore.framework */; };
 		941D851520A9A62B0049ED13 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941D851420A9A62B0049ED13 /* CoreGraphics.framework */; };
-		949BB8BE20AB3A4200F44A0C /* app-delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 949BB8BD20AB3A4200F44A0C /* app-delegate.m */; };
-		949BB8C020AB3D9000F44A0C /* game-view-controller.m in Sources */ = {isa = PBXBuildFile; fileRef = 949BB8BF20AB3D9000F44A0C /* game-view-controller.m */; };
-		949BB8C320AB3E4D00F44A0C /* game-view.m in Sources */ = {isa = PBXBuildFile; fileRef = 949BB8C220AB3E4D00F44A0C /* game-view.m */; };
+		949BB8BE20AB3A4200F44A0C /* app-delegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 949BB8BD20AB3A4200F44A0C /* app-delegate.mm */; };
+		949BB8C020AB3D9000F44A0C /* game-view-controller.mm in Sources */ = {isa = PBXBuildFile; fileRef = 949BB8BF20AB3D9000F44A0C /* game-view-controller.mm */; };
+		949BB8C320AB3E4D00F44A0C /* game-view.mm in Sources */ = {isa = PBXBuildFile; fileRef = 949BB8C220AB3E4D00F44A0C /* game-view.mm */; };
 		949BB8E920AB685000F44A0C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 949BB8E820AB685000F44A0C /* Default-568h@2x.png */; };
-		94AC6F1020A89F8C001C9D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AC6F0F20A89F8C001C9D01 /* main.m */; };
+		94AC6F1020A89F8C001C9D01 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 94AC6F0F20A89F8C001C9D01 /* main.mm */; };
 		94AC6F1820A8BD13001C9D01 /* libvulkust.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC6F1720A8BD13001C9D01 /* libvulkust.a */; };
 		94AC6F1B20A8BDCA001C9D01 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC6F1920A8BDC9001C9D01 /* Metal.framework */; };
 		94AC6F1C20A8BDCA001C9D01 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC6F1A20A8BDCA001C9D01 /* MetalKit.framework */; };
 		94AC6F1E20A8BFBB001C9D01 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC6F1D20A8BFBB001C9D01 /* Security.framework */; };
+		94C2A0EA20ACA44D0049AB3D /* MoltenVK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C2A0E920ACA44D0049AB3D /* MoltenVK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,20 +27,21 @@
 		941D851220A9A5F80049ED13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		941D851420A9A62B0049ED13 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		949BB8BC20AB3A4200F44A0C /* app-delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "app-delegate.h"; sourceTree = "<group>"; };
-		949BB8BD20AB3A4200F44A0C /* app-delegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "app-delegate.m"; sourceTree = "<group>"; };
-		949BB8BF20AB3D9000F44A0C /* game-view-controller.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "game-view-controller.m"; sourceTree = "<group>"; };
+		949BB8BD20AB3A4200F44A0C /* app-delegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "app-delegate.mm"; sourceTree = "<group>"; };
+		949BB8BF20AB3D9000F44A0C /* game-view-controller.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "game-view-controller.mm"; sourceTree = "<group>"; };
 		949BB8C120AB3DB900F44A0C /* game-view-controller.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "game-view-controller.h"; sourceTree = "<group>"; };
-		949BB8C220AB3E4D00F44A0C /* game-view.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "game-view.m"; sourceTree = "<group>"; };
+		949BB8C220AB3E4D00F44A0C /* game-view.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "game-view.mm"; sourceTree = "<group>"; };
 		949BB8C420AB3E6300F44A0C /* game-view.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "game-view.h"; sourceTree = "<group>"; };
 		949BB8E720AB5C9E00F44A0C /* vulkust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = vulkust.h; sourceTree = "<group>"; };
 		949BB8E820AB685000F44A0C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		94AC6EFD20A89F8C001C9D01 /* vulkust-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vulkust-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94AC6F0E20A89F8C001C9D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94AC6F0F20A89F8C001C9D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		94AC6F0F20A89F8C001C9D01 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
 		94AC6F1720A8BD13001C9D01 /* libvulkust.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvulkust.a; path = ../vulkust/target/libvulkust.a; sourceTree = "<group>"; };
 		94AC6F1920A8BDC9001C9D01 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
 		94AC6F1A20A8BDCA001C9D01 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		94AC6F1D20A8BFBB001C9D01 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		94C2A0E920ACA44D0049AB3D /* MoltenVK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenVK.framework; path = ../../Libraries/vulkansdk/MoltenVK/iOS/MoltenVK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C2A0EA20ACA44D0049AB3D /* MoltenVK.framework in Frameworks */,
 				941D851520A9A62B0049ED13 /* CoreGraphics.framework in Frameworks */,
 				941D851320A9A5F80049ED13 /* QuartzCore.framework in Frameworks */,
 				941D851120A95B1E0049ED13 /* UIKit.framework in Frameworks */,
@@ -82,13 +85,13 @@
 			isa = PBXGroup;
 			children = (
 				949BB8BC20AB3A4200F44A0C /* app-delegate.h */,
-				949BB8BD20AB3A4200F44A0C /* app-delegate.m */,
+				949BB8BD20AB3A4200F44A0C /* app-delegate.mm */,
 				949BB8C120AB3DB900F44A0C /* game-view-controller.h */,
-				949BB8BF20AB3D9000F44A0C /* game-view-controller.m */,
+				949BB8BF20AB3D9000F44A0C /* game-view-controller.mm */,
 				949BB8C420AB3E6300F44A0C /* game-view.h */,
-				949BB8C220AB3E4D00F44A0C /* game-view.m */,
+				949BB8C220AB3E4D00F44A0C /* game-view.mm */,
 				94AC6F0E20A89F8C001C9D01 /* Info.plist */,
-				94AC6F0F20A89F8C001C9D01 /* main.m */,
+				94AC6F0F20A89F8C001C9D01 /* main.mm */,
 				949BB8E720AB5C9E00F44A0C /* vulkust.h */,
 			);
 			path = "vulkust-ios";
@@ -97,6 +100,7 @@
 		94AC6F1620A8BD13001C9D01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94C2A0E920ACA44D0049AB3D /* MoltenVK.framework */,
 				941D851420A9A62B0049ED13 /* CoreGraphics.framework */,
 				941D851220A9A5F80049ED13 /* QuartzCore.framework */,
 				941D851020A95B1E0049ED13 /* UIKit.framework */,
@@ -177,10 +181,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				949BB8C320AB3E4D00F44A0C /* game-view.m in Sources */,
-				94AC6F1020A89F8C001C9D01 /* main.m in Sources */,
-				949BB8BE20AB3A4200F44A0C /* app-delegate.m in Sources */,
-				949BB8C020AB3D9000F44A0C /* game-view-controller.m in Sources */,
+				949BB8C320AB3E4D00F44A0C /* game-view.mm in Sources */,
+				94AC6F1020A89F8C001C9D01 /* main.mm in Sources */,
+				949BB8BE20AB3A4200F44A0C /* app-delegate.mm in Sources */,
+				949BB8C020AB3D9000F44A0C /* game-view-controller.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,14 +298,19 @@
 		94AC6F1420A89F8C001C9D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ARLN9WLC8;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = ../../Libraries/vulkansdk/MoltenVK/iOS;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				HEADER_SEARCH_PATHS = ../../Libraries/vulkansdk/MoltenVK/include;
 				INFOPLIST_FILE = "vulkust-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = ../vulkust/target;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gearoenix.vulkust-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -309,14 +318,19 @@
 		94AC6F1520A89F8C001C9D01 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8ARLN9WLC8;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = ../../Libraries/vulkansdk/MoltenVK/iOS;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				HEADER_SEARCH_PATHS = ../../Libraries/vulkansdk/MoltenVK/include;
 				INFOPLIST_FILE = "vulkust-ios/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = ../vulkust/target;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gearoenix.vulkust-ios";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
