@@ -20,6 +20,7 @@
 		94AC6F1C20A8BDCA001C9D01 /* MetalKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC6F1A20A8BDCA001C9D01 /* MetalKit.framework */; };
 		94AC6F1E20A8BFBB001C9D01 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94AC6F1D20A8BFBB001C9D01 /* Security.framework */; };
 		94C2A0EA20ACA44D0049AB3D /* MoltenVK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C2A0E920ACA44D0049AB3D /* MoltenVK.framework */; };
+		94C2A0EC20AD0C380049AB3D /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C2A0EB20AD0C380049AB3D /* IOSurface.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		94AC6F1A20A8BDCA001C9D01 /* MetalKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalKit.framework; path = System/Library/Frameworks/MetalKit.framework; sourceTree = SDKROOT; };
 		94AC6F1D20A8BFBB001C9D01 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		94C2A0E920ACA44D0049AB3D /* MoltenVK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MoltenVK.framework; path = ../../Libraries/vulkansdk/MoltenVK/iOS/MoltenVK.framework; sourceTree = "<group>"; };
+		94C2A0EB20AD0C380049AB3D /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94C2A0EC20AD0C380049AB3D /* IOSurface.framework in Frameworks */,
 				94C2A0EA20ACA44D0049AB3D /* MoltenVK.framework in Frameworks */,
 				941D851520A9A62B0049ED13 /* CoreGraphics.framework in Frameworks */,
 				941D851320A9A5F80049ED13 /* QuartzCore.framework in Frameworks */,
@@ -100,6 +103,7 @@
 		94AC6F1620A8BD13001C9D01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94C2A0EB20AD0C380049AB3D /* IOSurface.framework */,
 				94C2A0E920ACA44D0049AB3D /* MoltenVK.framework */,
 				941D851420A9A62B0049ED13 /* CoreGraphics.framework */,
 				941D851220A9A5F80049ED13 /* QuartzCore.framework */,
